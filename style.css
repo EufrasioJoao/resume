@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    width: 100%;
+}
+header h1 {
+    font-size: 4rem;
+    color: dodgerblue;
+}
+header p {
+    font-size: 0.9rem;
+}
+i {
+    margin-right: 5px;
+}
+.links_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 13px;
+}
+.links_box p {
+    color: #222;
+    font-size: 0.9rem;
+}
+.links_box a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #222;
+}
+
+/*===================== Main ===========================*/
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.left {
+    flex-basis: 73%;
+    height: 600px;
+    padding-right: 20px;
+}
+.right {
+    height: 600px;
+    flex-basis: 25%;
+    padding-right: 20px;
+}
+
+/*====================== .experience =================*/
+.experience {
+    font-family: monospace;
+}
+.experience_box {
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+.experience h2 {
+    color: dodgerblue;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.experience h3 {
+    color: #444;
+}
+.experience h3 span {
+    color: #888;
+}
+.experience_date {
+    color: #444;
+    margin: 5px 0;
+    display: block;
+}
+.experience ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.experience ul li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+/*====================== Skills =================*/
+.skills {
+    font-family: monospace;
+}
+.skills_box {
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+.skills h2 {
+    color: rgb(47, 179, 255);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.skills h3 {
+    color: #444;
+}
+.skills p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #555;
+}
+
+/*====================== education =================*/
+.education {
+    font-family: monospace;
+}
+.education_box {
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+.education h2 {
+    color: rgb(47, 179, 255);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.education h3 {
+    color: #444;
+}
+.university_date {
+    color: #444;
+    margin: 5px 0;
+    display: block;
+}
+.education p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/*====================== Projects =================*/
+.project {
+    font-family: monospace;
+    margin-top: 15px;
+}
+.project_box {
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+.project h2 {
+    color: rgb(47, 179, 255);
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+.education h3 {
+    color: #444;
+}
+.project p {
+    font-size: 0.9rem;
+    margin-top: 3px;
+    color: #555;
+}
+
+/*====================== Interest =================*/
+.interest {
+    font-family: monospace;
+    margin-top: 15px;
+}
+.interest h2 {
+    color: rgb(47, 179, 255);
+}
+.interest p {
+    font-size: 0.9rem;
+    margin-top: 3px;
+    color: #555;
+}
